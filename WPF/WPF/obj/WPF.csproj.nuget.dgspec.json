@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "R:\\HTL\\C#\\Cash-Desk\\WPF\\WPF\\WPF.csproj": {}
+  },
+  "projects": {
+    "R:\\HTL\\C#\\Cash-Desk\\CashRegister.Shared\\CashRegister.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\HTL\\C#\\Cash-Desk\\CashRegister.Shared\\CashRegister.Shared.csproj",
+        "projectName": "CashRegister.Shared",
+        "projectPath": "R:\\HTL\\C#\\Cash-Desk\\CashRegister.Shared\\CashRegister.Shared.csproj",
+        "packagesPath": "C:\\Users\\Jakob Aschauer\\.nuget\\packages\\",
+        "outputPath": "R:\\HTL\\C#\\Cash-Desk\\CashRegister.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jakob Aschauer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\HTL\\C#\\Cash-Desk\\WPF\\WPF\\WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\HTL\\C#\\Cash-Desk\\WPF\\WPF\\WPF.csproj",
+        "projectName": "WPF",
+        "projectPath": "R:\\HTL\\C#\\Cash-Desk\\WPF\\WPF\\WPF.csproj",
+        "packagesPath": "C:\\Users\\Jakob Aschauer\\.nuget\\packages\\",
+        "outputPath": "R:\\HTL\\C#\\Cash-Desk\\WPF\\WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jakob Aschauer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "R:\\HTL\\C#\\Cash-Desk\\CashRegister.Shared\\CashRegister.Shared.csproj": {
+                "projectPath": "R:\\HTL\\C#\\Cash-Desk\\CashRegister.Shared\\CashRegister.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.2, 3.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

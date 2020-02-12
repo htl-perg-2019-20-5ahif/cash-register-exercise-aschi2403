@@ -1,0 +1,8 @@
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\bin\Debug\netstandard2.1\CashRegister.Shared.deps.json
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\bin\Debug\netstandard2.1\CashRegister.Shared.dll
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\bin\Debug\netstandard2.1\CashRegister.Shared.pdb
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\obj\Debug\netstandard2.1\CashRegister.Shared.csprojAssemblyReference.cache
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\obj\Debug\netstandard2.1\CashRegister.Shared.AssemblyInfoInputs.cache
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\obj\Debug\netstandard2.1\CashRegister.Shared.AssemblyInfo.cs
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\obj\Debug\netstandard2.1\CashRegister.Shared.dll
+R:\HTL\C#\Cash-Desk\CashRegister.Shared\obj\Debug\netstandard2.1\CashRegister.Shared.pdb
